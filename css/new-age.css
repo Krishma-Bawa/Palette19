@@ -253,36 +253,36 @@ section.download .badges .badge-link img {
     font-size: 70px;
   }
 }
-section.features .section-heading {
+section.homedesign .section-heading {
   margin-bottom: 100px;
 }
-section.features .section-heading h2 {
+section.homedesign .section-heading h2 {
   margin-top: 0;
 }
-section.features .section-heading p {
+section.homedesign .section-heading p {
   margin-bottom: 0;
 }
-section.features .device-container,
-section.features .feature-item {
+section.homedesign .device-container,
+section.homedesign .feature-item {
   max-width: 300px;
   margin: 0 auto;
 }
-section.features .device-container {
+section.homedesign .device-container {
   margin-bottom: 100px;
 }
 @media (min-width: 992px) {
-  section.features .device-container {
+  section.homedesign .device-container {
     margin-bottom: 0;
   }
 }
-section.features .feature-item {
+section.homedesign .feature-item {
   text-align: center;
   margin-bottom: 100px;
 }
-section.features .feature-item h3 {
+section.homedesign .feature-item h3 {
   font-size: 30px;
 }
-section.features .feature-item i {
+section.homedesign .feature-item i {
   font-size: 80px;
   background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
   background: linear-gradient(to left, #7b4397, #dc2430);
@@ -290,38 +290,36 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 @media (min-width: 992px) {
-  section.features .device-container,
-  section.features .feature-item {
+  section.homedesign .device-container,
+  section.homedesign .feature-item {
     max-width: none;
   }
 }
-section.cta {
+section.personalstyling {
   position: relative;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/bg-cta.jpg');
+  background-image: url('../img/style.jpg');
   padding: 250px 0;
 }
-section.cta .cta-content {
+section.personalstyling .personalstyling-content {
   position: relative;
   z-index: 1;
 }
-section.cta .cta-content h2 {
+section.personalstyling .personalstyling-content h2,p {
   margin-top: 0;
   margin-bottom: 25px;
   color: white;
-  max-width: 450px;
-  font-size: 50px;
 }
 @media (min-width: 768px) {
-  section.cta .cta-content h2 {
+  section.personalstyling .personalstyling-content h2 {
     font-size: 80px;
   }
 }
-section.cta .overlay {
+section.personalstyling .overlay {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -447,4 +445,25 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+#logo {
+	font-size: 500%;
+}
+
+#vision-pic {
+	width: 600px;
+	height: auto;,
+}
+
+#homedesign {
+	background: #382a23;
+}
+
+#homedesign h2 {
+	color: white;
+}
+
+#contact a{
+	color: white;
 }
