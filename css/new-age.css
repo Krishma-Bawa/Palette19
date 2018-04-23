@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 .heading-font {
-  font-family: 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Merienda One', cursive;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -49,12 +49,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: bold;
+  font-family: 'Antic Didone', serif;
+  font-weight: normal;
   letter-spacing: 1px;
 }
 .header-content-inner h1, .header-content-inner h3 {
-  color: #ab9567;
+  color: #ffffff;
 }
 p {
   font-size: 18px;
@@ -72,18 +72,18 @@ p {
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
-  color: #ab9567;
+  color: #ffffff;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #fcbd20;
+  color: #ffffff;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-size: 12px;
-  color: #222222;
+  color: #ffffff;
   padding: 8px 10px;
 }
 .navbar-default .nav > li > a {
@@ -94,15 +94,15 @@ p {
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-  color: #222222;
+  color: #ffffff;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #ab9567;
+  color: #ffffff;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #ab9567 !important;
+  color: #ffffff !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -115,7 +115,7 @@ p {
     border-color: transparent;
   }
   .navbar-default .navbar-header .navbar-brand {
-    color: #ab9567;
+    color: #cfd8dc;
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
@@ -154,7 +154,7 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: #382a23;
+  background: #00251a;
   color: white;
 }
 header .header-content {
@@ -314,7 +314,7 @@ section.personalstyling .personalstyling-content h2,p {
 section.personalstyling .overlay {
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #004d40;
   position: absolute;
   top: 0;
   left: 0;
@@ -471,11 +471,11 @@ img {
 }
 
 #homedesign {
-	background: #382a23;
+	background: #a69b97;
 }
 
 #homedesign h2 {
-	color: white;
+	color: #d7ccc8;
 }
 
 #contact a{
